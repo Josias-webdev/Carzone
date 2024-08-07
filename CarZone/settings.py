@@ -112,7 +112,10 @@ WSGI_APPLICATION = 'CarZone.wsgi.application'
 #     }
 # }
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:admin@localhost/carzone_db')}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:admin@localhost/carzone_db')}
+
+DATABASES = {'default': dj_database_url.config(conn_max_age=600)}
+
 
 
 # Password validation
