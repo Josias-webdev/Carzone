@@ -112,7 +112,7 @@ WSGI_APPLICATION = 'CarZone.wsgi.application'
 #     }
 # }
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:admin@localhost/carzone_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://ud89aond7jbjab:p53ba43fbcc2fe6bf0efabb58646e716c84236940143286527db8f020e036f194@c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/de71oisvt0p4s5')}
 
 # DATABASES = {'default': dj_database_url.config(conn_max_age=600)}
 
