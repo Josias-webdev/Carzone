@@ -2,6 +2,11 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import json
+
+with open('project_dump.json', 'r', encoding='latin-1') as f:
+    data = json.load(f)
+
 
 
 def main():
